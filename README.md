@@ -4,7 +4,7 @@ A to-do list app for Android.
 
 **Completed Features:**
 
- * [x] (Required): Add task
+ * [x] *Required*: Add task
  * [x] (Required): Edit task
  * [x] (Required): Delete task
  * [x] (Required): Restore previously persisted items when app restarts 
@@ -19,9 +19,9 @@ A to-do list app for Android.
 
 I chose to structure my app using the Model-View-Presenter (MVP) pattern to separate the presentation layer from the logic.
 
- * MODEL (provides data to display in the View): `Task`, `Database` 
- * VIEW (calls methods from the Presenter for interface actions): `AllTasksActivity`, `EditTaskActivity`, `TaskDetailActivity`
- * PRESENTER (retrieves data from the Model and returns it to the View): @@@@@@@@@@@@@@@
+ * Model (provides data to display in the View): `Task`, `Database` 
+ * View (calls methods from the Presenter for interface actions): `AllTasksActivity`, `EditTaskActivity`, `TaskDetailActivity`
+ * Presenter (retrieves data from the Model and returns it to the View): @@@@@@@@@@@@@@@
 
 **GIF walkthrough of all required and optional stories:**
 
