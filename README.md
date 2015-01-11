@@ -30,8 +30,12 @@ I chose to structure my app using the Model-View-Presenter (MVP) pattern to sepa
 
 The prework instructions said to set minSDKVersion to API 14 when generating the project, but the Quickstart Slides said to set it to API 4.1 (Jelly Bean). I just chose to follow the prework instructions.
 
+**Logo and Branding:**
+
+![Listly Logo](images/listlylogo.gif)
+
 **GIF walkthrough of all required and optional stories:**
 
-![Video Walkthrough](listlyfaster.gif)
+![Video Walkthrough](images/listlyfaster.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [LiceCap](http://www.cockos.com/licecap/)
