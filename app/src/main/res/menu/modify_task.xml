@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item 
+        android:id="@+id/actionbar_save"
+        android:showAsAction="always"
+        android:icon="@drawable/save_icon"
+        android:title="@string/save" />
+    
+    <item 
+        android:id="@+id/actionbar_cancel"
+        android:showAsAction="always"
+        android:icon="@drawable/close_icon"
+        android:title="@string/cancel" />
+</menu>

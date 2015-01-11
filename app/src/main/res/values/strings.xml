@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Listly</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="priority_level_string_array_values">
+        <item>@string/priority_level_high</item>
+        <item>@string/priority_level_medium</item>
+        <item>@string/priority_level_low</item>
+    </string-array>
+    <string-array name="status_string_array_values">
+        <item>@string/status_done</item>
+        <item>@string/status_to_do</item>
+    </string-array>
+
+    <string name="add">Add</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="task_details">Task Details</string>
+    <string name="task">Task</string>
+    <string name="task_label">Task Name</string>
+    <string name="task_hint">Enter name of task</string>
+    <string name="due_date_label">Due Date</string>
+    <string name="notes_label">Task Notes</string>
+    <string name="notes_hint">Enter notes for this task</string>
+    <string name="priority_level_label">Priority Level</string>
+    <string name="priority_level_high">HIGH</string>
+    <string name="priority_level_medium">MEDIUM</string>
+    <string name="priority_level_low">LOW</string>
+    <string name="status_label">Status</string>
+    <string name="status_done">DONE</string>
+    <string name="status_to_do">TO-DO</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm_cancel">Are you sure you want to cancel editing this task?</string>
+    <string name="clear">Clear</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="add_task">Add Task</string>
+
+    <string-array name="sample_tasks">
+        <item>Task 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4</item>
+        <item>Task 5</item>
+        <item>Task 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4</item>
+        <item>Task 5</item>
+        <item>Task 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4</item>
+        <item>Task 5</item>
+    </string-array>
+
+    <color name="white">#FFFFFF</color>
+
+</resources>

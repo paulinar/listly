@@ -22,11 +22,12 @@ A to-do list app for Android.
 
 I chose to structure my app using the Model-View-Presenter (MVP) pattern to separate the presentation layer from the logic.
 
- * Model: `Task`, `Database` (these provide data to display in the View)
- * View: `AllTasksActivity`, `EditTaskActivity`, `TaskDetailActivity`, `CustomTaskAdapter`, `SplashScreen` (these call methods from the Presenter for interface actions)
- * Presenter: `ActivityManager`, `ConfirmActionDialog` (these retrieve data from the Model to return to the View, acting as a middleman):
+ * MODEL: `Task`, `Database` (these provide data to display in the View)
+ * VIEW: `AllTasksActivity`, `EditTaskActivity`, `TaskDetailActivity`, `CustomTaskAdapter`, `SplashScreen` (these call methods from the Presenter for interface actions)
+ * PRESENTER: `ActivityManager`, `ConfirmActionDialog` (these retrieve data from the Model to return to the View, acting as a middleman):
 
 **Note:**
+
 The prework instructions said to set minSDKVersion to API 14 when generating the project, but the Quickstart Slides said to set it to API 4.1 (Jelly Bean). I just chose to follow the prework instructions.
 
 **GIF walkthrough of all required and optional stories:**
